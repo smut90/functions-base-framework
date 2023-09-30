@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "#project-dev",
+    "dev": "#project-dev",
+    "prod": "#project-live"
+  }
+}

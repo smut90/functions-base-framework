@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"],
+      "@fs/*": ["src/*"],
+      "@root/*": ["./src/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@entities/*": ["./src/entities/*"],
+      "@core/*": ["./src/core/*"],
+      "@repository/*": ["./src/repository/*"],
+      "@util/*": ["./src/util/*"],
+    },
+    "types": [
+      "node",
+    ]
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*"
+  ]
+}
